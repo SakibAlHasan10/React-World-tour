@@ -1,12 +1,12 @@
-import './Country.css'
+import './Country.css';
+
 const Country = ({country}) => {
     // console.log(country)
-    const {name, flags} = country
-    console.log(name, flags.svg)
+    const {flags, name} = country
     return (
         <div className='country'>
-            <img src={flags.png} className='img' alt="" srcset="" />
-            <h3>Country:{name.common}</h3>
+            <img src={flags.png} alt="Flags" />
+            <h2>Name: {name.common}</h2>
         </div>
     );
 };
