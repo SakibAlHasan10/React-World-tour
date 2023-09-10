@@ -4,4 +4,9 @@
     margin: 1rem;
     text-align: center;
     padding: 1rem;
+    
+
+}
+.visited{
+    background-color: bisque;
 }
